@@ -2,8 +2,8 @@
 
 ## Get Started
 
-1. Setup a .NET WebAPI with SuperBootstrapBase setup.
-2. Install SuperBootstrapCache NuGet Package.
+1. Setup a .NET WebAPI with SuperBootstrapBase setup. [Learn more](https://github.com/mrkresnofatih/SuperBootstrapBase)
+2. Install [SuperBootstrapCache](https://www.nuget.org/packages/DesertCamel.BaseMicroservices.SuperBootstrap.Cache/) NuGet Package.
 3. Add the cache section inside your `appsettings.json` file.
 ```json
 {
@@ -68,7 +68,7 @@ public async Task<object> Set([FromRoute] string city, [FromRoute] int temperatu
             City = city,
             Temperature = temperature
         },
-        TimeToLive = 30
+        TimeToLive = 30 // seconds
     });
     return storeResult;
 }
