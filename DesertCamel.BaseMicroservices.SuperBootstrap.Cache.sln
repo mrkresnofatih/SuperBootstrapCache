@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesertCamel.BaseMicroservices.SuperBootstrap.Cache", "DesertCamel.BaseMicroservices.SuperBootstrap.Cache\DesertCamel.BaseMicroservices.SuperBootstrap.Cache.csproj", "{B17C7ED1-52F8-4EA4-9024-F4FF4EB02978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.ProjectOne.WebApi", "Sample.ProjectOne.WebApi\Sample.ProjectOne.WebApi.csproj", "{66AA6412-29E3-4E24-9112-F3E177F6754F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17C7ED1-52F8-4EA4-9024-F4FF4EB02978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17C7ED1-52F8-4EA4-9024-F4FF4EB02978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17C7ED1-52F8-4EA4-9024-F4FF4EB02978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17C7ED1-52F8-4EA4-9024-F4FF4EB02978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66AA6412-29E3-4E24-9112-F3E177F6754F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66AA6412-29E3-4E24-9112-F3E177F6754F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66AA6412-29E3-4E24-9112-F3E177F6754F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66AA6412-29E3-4E24-9112-F3E177F6754F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

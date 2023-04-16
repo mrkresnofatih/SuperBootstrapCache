@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  redisapp:
+    container_name: "redis"
+    image: redis:7.0.10
+    ports:
+      - "6379:6379"
+    command: >
+      --requirepass admin123#

@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "a4eb6e84-f6c4-4d0e-a8d7-9b6ceb93d2f7",
+		"name": "SuperBoostrapCache",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13142924"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/weather/get/Bandung",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"weather",
+						"get",
+						"Bandung"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Set",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/weather/set/Bandung/21",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"weather",
+						"set",
+						"Bandung",
+						"21"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/weather/delete/Bandung",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"weather",
+						"delete",
+						"Bandung"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
